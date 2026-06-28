@@ -275,8 +275,12 @@ const server = http.createServer(async (req, res) => {
   res.end('Not found');
 });
 
-server.listen(PORT, () => {
-  console.log(`Adfinity website running at http://localhost:${PORT}`);
-  console.log('Portfolio served locally from data/portfolio.json');
-  console.log('Reset stats: npm run reset-stats');
-});
+if (require.main === module) {
+  server.listen(PORT, () => {
+    console.log(`Adfinity website running at http://localhost:${PORT}`);
+    console.log('Portfolio served locally from data/portfolio.json');
+    console.log('Reset stats: npm run reset-stats');
+  });
+}
+
+module.exports = server;
