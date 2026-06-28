@@ -1,6 +1,7 @@
 {
   "buildCommand": "npm run build",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api" }
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/api/index.js" }
   ]
 }
