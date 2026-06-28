@@ -1,0 +1,15 @@
+{
+  "name": "adfinity-website",
+  "version": "1.0.0",
+  "description": "Local mirror of regin.in portfolio site (PHP/Laravel frontend stack)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node scripts/generate-index.js",
+    "reset-stats": "node scripts/reset-stats.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

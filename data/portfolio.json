@@ -1,0 +1,936 @@
+[
+  {
+    "slug": "raspberry-duet",
+    "category": "packaging-designs",
+    "title": "Raspberry Duet",
+    "subtitle": "Food Retail",
+    "thumbnail": "/uploads/products/images/primary/raspberry-duet.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/raspberry-duet-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Raspberry",
+      "Duet"
+    ]
+  },
+  {
+    "slug": "siriyan",
+    "category": "logo-designs",
+    "title": "Siriyan",
+    "subtitle": "Education",
+    "thumbnail": "/uploads/products/images/primary/siriyan.png",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/siriyan-0.png"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Siriyan",
+      "Education"
+    ]
+  },
+  {
+    "slug": "unilix",
+    "category": "logo-designs",
+    "title": "Unilix",
+    "subtitle": "Education",
+    "thumbnail": "/uploads/products/images/primary/unilix.png",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/unilix-0.png"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Unilix",
+      "Education"
+    ]
+  },
+  {
+    "slug": "lamit",
+    "category": "packaging-designs",
+    "title": "Lamit",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/lamit.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/lamit-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Lamit"
+    ]
+  },
+  {
+    "slug": "vigneswara-wall-paints",
+    "category": "packaging-designs",
+    "title": "Vigneswara Wall Paints",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/vigneswara-wall-paints.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/vigneswara-wall-paints-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Vigneswara",
+      "Wall",
+      "Paints"
+    ]
+  },
+  {
+    "slug": "white-magic-wall-putty",
+    "category": "packaging-designs",
+    "title": "White Magic Wall Putty",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/white-magic-wall-putty.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/white-magic-wall-putty-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "White",
+      "Magic",
+      "Wall"
+    ]
+  },
+  {
+    "slug": "panthera-feed",
+    "category": "packaging-designs",
+    "title": "Panthera Feed",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/panthera-feed.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/panthera-feed-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Panthera",
+      "Feed"
+    ]
+  },
+  {
+    "slug": "kulfi-bar",
+    "category": "packaging-designs",
+    "title": "Kulfi Bar",
+    "subtitle": "Food Retail",
+    "thumbnail": "/uploads/products/images/primary/kulfi-bar.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/kulfi-bar-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Kulfi",
+      "Bar"
+    ]
+  },
+  {
+    "slug": "dr-virgin-baby-oil",
+    "category": "packaging-designs",
+    "title": "Dr Virgin Baby Oil",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/dr-virgin-baby-oil.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/dr-virgin-baby-oil-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Dr",
+      "Virgin",
+      "Baby"
+    ]
+  },
+  {
+    "slug": "ghiza-water-bottle",
+    "category": "packaging-designs",
+    "title": "Ghiza Water Bottle",
+    "subtitle": "Food Retail",
+    "thumbnail": "/uploads/products/images/primary/ghiza-water-bottle.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/ghiza-water-bottle-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Ghiza",
+      "Water",
+      "Bottle"
+    ]
+  },
+  {
+    "slug": "coco-milk",
+    "category": "packaging-designs",
+    "title": "Coco Milk",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/coco-milk.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/coco-milk-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Coco",
+      "Milk"
+    ]
+  },
+  {
+    "slug": "sai-ram-foods",
+    "category": "packaging-designs",
+    "title": "Sai Ram Foods",
+    "subtitle": "Food Retail",
+    "thumbnail": "/uploads/products/images/primary/sai-ram-foods.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/sai-ram-foods-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Sai",
+      "Ram",
+      "Foods"
+    ]
+  },
+  {
+    "slug": "mahadheer-cashews",
+    "category": "packaging-designs",
+    "title": "Mahadheer Cashews",
+    "subtitle": "Food Retail",
+    "thumbnail": "/uploads/products/images/primary/mahadheer-cashews.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/mahadheer-cashews-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Mahadheer",
+      "Cashews"
+    ]
+  },
+  {
+    "slug": "aar-consultants",
+    "category": "logo-designs",
+    "title": "AAR Consultants",
+    "subtitle": "Consulting",
+    "thumbnail": "/uploads/products/images/primary/aar-consultants.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/aar-consultants-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "AAR",
+      "Consultants"
+    ]
+  },
+  {
+    "slug": "mrg-contracting-company",
+    "category": "logo-designs",
+    "title": "MRG Contracting Company",
+    "subtitle": "Construction",
+    "thumbnail": "/uploads/products/images/primary/mrg-contracting-company.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/mrg-contracting-company-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "MRG",
+      "Contracting",
+      "Company"
+    ]
+  },
+  {
+    "slug": "d-k-department-stores",
+    "category": "logo-designs",
+    "title": "D K Department Stores",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/d-k-department-stores.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/d-k-department-stores-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "D",
+      "K",
+      "Department"
+    ]
+  },
+  {
+    "slug": "k-r-automotives",
+    "category": "logo-designs",
+    "title": "K R Automotives",
+    "subtitle": "Automotive",
+    "thumbnail": "/uploads/products/images/primary/k-r-automotives.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/k-r-automotives-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "K",
+      "R",
+      "Automotives"
+    ]
+  },
+  {
+    "slug": "fix-my-mobile",
+    "category": "logo-designs",
+    "title": "Fix my mobile",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/fix-my-mobile.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/fix-my-mobile-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Fix",
+      "my",
+      "mobile"
+    ]
+  },
+  {
+    "slug": "rxr",
+    "category": "logo-designs",
+    "title": "RXR",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/rxr.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/rxr-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "RXR"
+    ]
+  },
+  {
+    "slug": "gcs-overseas",
+    "category": "logo-designs",
+    "title": "GCS Overseas",
+    "subtitle": "Education",
+    "thumbnail": "/uploads/products/images/primary/gcs-overseas.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/gcs-overseas-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "GCS",
+      "Overseas"
+    ]
+  },
+  {
+    "slug": "kavya-constructions",
+    "category": "logo-designs",
+    "title": "Kavya Constructions",
+    "subtitle": "Construction",
+    "thumbnail": "/uploads/products/images/primary/kavya-constructions.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/kavya-constructions-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Kavya",
+      "Constructions"
+    ]
+  },
+  {
+    "slug": "windsor-motors",
+    "category": "logo-designs",
+    "title": "Windsor Motors",
+    "subtitle": "Automotive",
+    "thumbnail": "/uploads/products/images/primary/windsor-motors.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/windsor-motors-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Windsor",
+      "Motors"
+    ]
+  },
+  {
+    "slug": "hanuman-constructions",
+    "category": "logo-designs",
+    "title": "Hanuman Constructions",
+    "subtitle": "Construction",
+    "thumbnail": "/uploads/products/images/primary/hanuman-constructions.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/hanuman-constructions-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Hanuman",
+      "Constructions"
+    ]
+  },
+  {
+    "slug": "hadvi-events",
+    "category": "logo-designs",
+    "title": "Hadvi Events",
+    "subtitle": "Event Management",
+    "thumbnail": "/uploads/products/images/primary/hadvi-events.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/hadvi-events-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Hadvi",
+      "Events"
+    ]
+  },
+  {
+    "slug": "nandini-silks",
+    "category": "logo-designs",
+    "title": "Nandini Silks",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/nandini-silks.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/nandini-silks-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Nandini",
+      "Silks"
+    ]
+  },
+  {
+    "slug": "n-k-solutions",
+    "category": "logo-designs",
+    "title": "N K Solutions",
+    "subtitle": "Consulting",
+    "thumbnail": "/uploads/products/images/primary/n-k-solutions.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/n-k-solutions-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "N",
+      "K",
+      "Solutions"
+    ]
+  },
+  {
+    "slug": "car-craft",
+    "category": "logo-designs",
+    "title": "Car Craft",
+    "subtitle": "Automotive",
+    "thumbnail": "/uploads/products/images/primary/car-craft.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/car-craft-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Car",
+      "Craft"
+    ]
+  },
+  {
+    "slug": "zest-shawarma",
+    "category": "logo-designs",
+    "title": "Zest Shawarma",
+    "subtitle": "Food Retail",
+    "thumbnail": "/uploads/products/images/primary/zest-shawarma.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/zest-shawarma-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Zest",
+      "Shawarma"
+    ]
+  },
+  {
+    "slug": "subhodaya-school",
+    "category": "logo-designs",
+    "title": "Subhodaya School",
+    "subtitle": "Education",
+    "thumbnail": "/uploads/products/images/primary/subhodaya-school.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/subhodaya-school-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Subhodaya",
+      "School"
+    ]
+  },
+  {
+    "slug": "nettwings-solutions",
+    "category": "brochure-designs",
+    "title": "Nettwings Solutions",
+    "subtitle": "IT Services",
+    "thumbnail": "/uploads/products/images/primary/nettwings-solutions.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/nettwings-solutions-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Nettwings",
+      "Solutions"
+    ]
+  },
+  {
+    "slug": "sansun-elevators",
+    "category": "brochure-designs",
+    "title": "Sansun Elevators",
+    "subtitle": "Real Estate",
+    "thumbnail": "/uploads/products/images/primary/sansun-elevators.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/sansun-elevators-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Sansun",
+      "Elevators"
+    ]
+  },
+  {
+    "slug": "dwaraka-towers",
+    "category": "brochure-designs",
+    "title": "Dwaraka Towers",
+    "subtitle": "Real Estate",
+    "thumbnail": "/uploads/products/images/primary/dwaraka-towers.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/dwaraka-towers-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Dwaraka",
+      "Towers"
+    ]
+  },
+  {
+    "slug": "srilakshmi-enclave",
+    "category": "brochure-designs",
+    "title": "SriLakshmi Enclave",
+    "subtitle": "Real Estate",
+    "thumbnail": "/uploads/products/images/primary/srilakshmi-enclave.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/srilakshmi-enclave-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "SriLakshmi",
+      "Enclave"
+    ]
+  },
+  {
+    "slug": "coasta-naturals",
+    "category": "logo-designs",
+    "title": "Coasta Naturals",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/coasta-naturals.jpeg",
+    "video": "/uploads/products/videos/primary/coasta-naturals.mp4",
+    "videoPoster": "/uploads/products/images/additional/coasta-naturals-0.jpeg",
+    "gallery": [
+      "/uploads/products/images/additional/coasta-naturals-0.jpeg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Coasta",
+      "Naturals"
+    ]
+  },
+  {
+    "slug": "trikoteswara-farm-land",
+    "category": "brochure-designs",
+    "title": "Trikoteswara Farm Land",
+    "subtitle": "Real Estate",
+    "thumbnail": "/uploads/products/images/primary/trikoteswara-farm-land.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/trikoteswara-farm-land-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Trikoteswara",
+      "Farm",
+      "Land"
+    ]
+  },
+  {
+    "slug": "sanjeevini-hospitals",
+    "category": "brochure-designs",
+    "title": "Sanjeevini Hospitals",
+    "subtitle": "Hospitality",
+    "thumbnail": "/uploads/products/images/primary/sanjeevini-hospitals.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/sanjeevini-hospitals-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Sanjeevini",
+      "Hospitals"
+    ]
+  },
+  {
+    "slug": "film-nagar",
+    "category": "brochure-designs",
+    "title": "Film Nagar",
+    "subtitle": "Real Estate",
+    "thumbnail": "/uploads/products/images/primary/film-nagar.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/film-nagar-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Film",
+      "Nagar"
+    ]
+  },
+  {
+    "slug": "sbl-lifts",
+    "category": "brochure-designs",
+    "title": "SBL Lifts",
+    "subtitle": "Construction",
+    "thumbnail": "/uploads/products/images/primary/sbl-lifts.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/sbl-lifts-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "SBL",
+      "Lifts"
+    ]
+  },
+  {
+    "slug": "bhavya-nagar",
+    "category": "brochure-designs",
+    "title": "Bhavya Nagar",
+    "subtitle": "Real Estate",
+    "thumbnail": "/uploads/products/images/primary/bhavya-nagar.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/bhavya-nagar-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Bhavya",
+      "Nagar"
+    ]
+  },
+  {
+    "slug": "omega-power-controls",
+    "category": "brochure-designs",
+    "title": "Omega Power Controls",
+    "subtitle": "Industry",
+    "thumbnail": "/uploads/products/images/primary/omega-power-controls.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/omega-power-controls-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Omega",
+      "Power",
+      "Controls"
+    ]
+  },
+  {
+    "slug": "techno-trends",
+    "category": "brochure-designs",
+    "title": "Techno Trends",
+    "subtitle": "Education",
+    "thumbnail": "/uploads/products/images/primary/techno-trends.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/techno-trends-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Techno",
+      "Trends"
+    ]
+  },
+  {
+    "slug": "mrg-constructing-company",
+    "category": "business-cards",
+    "title": "MRG Constructing Company",
+    "subtitle": "Construction",
+    "thumbnail": "/uploads/products/images/primary/mrg-constructing-company.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/mrg-constructing-company-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "MRG",
+      "Constructing",
+      "Company"
+    ]
+  },
+  {
+    "slug": "aar-consultants",
+    "category": "business-cards",
+    "title": "AAR Consultants",
+    "subtitle": "Consulting",
+    "thumbnail": "/uploads/products/images/primary/aar-consultants.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/aar-consultants-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "AAR",
+      "Consultants"
+    ]
+  },
+  {
+    "slug": "ss-medicals",
+    "category": "business-cards",
+    "title": "SS Medicals",
+    "subtitle": "Healthcare",
+    "thumbnail": "/uploads/products/images/primary/ss-medicals.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/ss-medicals-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "SS",
+      "Medicals"
+    ]
+  },
+  {
+    "slug": "hiltha-beauty-zone",
+    "category": "business-cards",
+    "title": "Hiltha Beauty zone",
+    "subtitle": "Parlour",
+    "thumbnail": "/uploads/products/images/primary/hiltha-beauty-zone.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/hiltha-beauty-zone-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Hiltha",
+      "Beauty",
+      "zone"
+    ]
+  },
+  {
+    "slug": "guru-of-stars",
+    "category": "business-cards",
+    "title": "Guru of Stars",
+    "subtitle": "Astrology",
+    "thumbnail": "/uploads/products/images/primary/guru-of-stars.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/guru-of-stars-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Guru",
+      "of",
+      "Stars"
+    ]
+  },
+  {
+    "slug": "network-solutions",
+    "category": "business-cards",
+    "title": "Network Solutions",
+    "subtitle": "Solutions",
+    "thumbnail": "/uploads/products/images/primary/network-solutions.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/network-solutions-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Network",
+      "Solutions"
+    ]
+  },
+  {
+    "slug": "k-chakravarthis-orthopaedic-hospital",
+    "category": "business-cards",
+    "title": "K Chakravarthi's Orthopaedic Hospital",
+    "subtitle": "Healthcare",
+    "thumbnail": "/uploads/products/images/primary/k-chakravarthis-orthopaedic-hospital.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/k-chakravarthis-orthopaedic-hospital-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "K",
+      "Chakravarthi's",
+      "Orthopaedic"
+    ]
+  },
+  {
+    "slug": "power-solutions",
+    "category": "business-cards",
+    "title": "Power Solutions",
+    "subtitle": "Industry",
+    "thumbnail": "/uploads/products/images/primary/power-solutions.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/power-solutions-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Power",
+      "Solutions"
+    ]
+  },
+  {
+    "slug": "vybhavam-contractors",
+    "category": "business-cards",
+    "title": "Vybhavam Contractors",
+    "subtitle": "Construction",
+    "thumbnail": "/uploads/products/images/primary/vybhavam-contractors.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/vybhavam-contractors-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Vybhavam",
+      "Contractors"
+    ]
+  },
+  {
+    "slug": "d-k-department-stores",
+    "category": "business-cards",
+    "title": "D K Department Stores",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/d-k-department-stores.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/d-k-department-stores-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "D",
+      "K",
+      "Department"
+    ]
+  },
+  {
+    "slug": "subhodaya-school",
+    "category": "book-titles",
+    "title": "Subhodaya School",
+    "subtitle": "Education",
+    "thumbnail": "/uploads/products/images/primary/subhodaya-school.jpeg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/subhodaya-school-0.jpeg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Subhodaya",
+      "School"
+    ]
+  },
+  {
+    "slug": "a-square",
+    "category": "hoardings",
+    "title": "A Square",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/a-square.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/a-square-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "A",
+      "Square"
+    ]
+  },
+  {
+    "slug": "vinayaka-shopping-mall",
+    "category": "hoardings",
+    "title": "Vinayaka Shopping Mall",
+    "subtitle": "Retail",
+    "thumbnail": "/uploads/products/images/primary/vinayaka-shopping-mall.jpg",
+    "video": null,
+    "videoPoster": null,
+    "gallery": [
+      "/uploads/products/images/additional/vinayaka-shopping-mall-0.jpg"
+    ],
+    "backgroundColor": "#000000",
+    "tags": [
+      "Vinayaka",
+      "Shopping",
+      "Mall"
+    ]
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "packaging-designs",
+    "label": "Packaging",
+    "navLabel": "Packaging",
+    "sourceKey": "packaging",
+    "itemSlugs": [
+      "raspberry-duet",
+      "lamit",
+      "vigneswara-wall-paints",
+      "white-magic-wall-putty",
+      "panthera-feed",
+      "kulfi-bar",
+      "dr-virgin-baby-oil",
+      "ghiza-water-bottle",
+      "coco-milk",
+      "sai-ram-foods",
+      "mahadheer-cashews"
+    ]
+  },
+  {
+    "id": "logo-designs",
+    "label": "Logo / Branding",
+    "navLabel": "Logo / Branding",
+    "sourceKey": "logos",
+    "itemSlugs": [
+      "aar-consultants",
+      "mrg-contracting-company",
+      "d-k-department-stores",
+      "k-r-automotives",
+      "fix-my-mobile",
+      "rxr",
+      "gcs-overseas",
+      "kavya-constructions",
+      "windsor-motors",
+      "hanuman-constructions",
+      "hadvi-events",
+      "nandini-silks",
+      "n-k-solutions",
+      "car-craft",
+      "zest-shawarma",
+      "subhodaya-school",
+      "siriyan",
+      "unilix",
+      "coasta-naturals"
+    ]
+  },
+  {
+    "id": "brochure-designs",
+    "label": "Brochure / Catalogue",
+    "navLabel": "Brochure / Catalogue",
+    "sourceKey": "brochure",
+    "itemSlugs": [
+      "nettwings-solutions",
+      "sansun-elevators",
+      "dwaraka-towers",
+      "srilakshmi-enclave",
+      "trikoteswara-farm-land",
+      "sanjeevini-hospitals",
+      "film-nagar",
+      "sbl-lifts",
+      "bhavya-nagar",
+      "omega-power-controls",
+      "techno-trends"
+    ]
+  },
+  {
+    "id": "business-cards",
+    "label": "Business Cards",
+    "navLabel": "Business Cards",
+    "sourceKey": "business-card",
+    "itemSlugs": [
+      "mrg-constructing-company",
+      "aar-consultants",
+      "ss-medicals",
+      "hiltha-beauty-zone",
+      "guru-of-stars",
+      "network-solutions",
+      "k-chakravarthis-orthopaedic-hospital",
+      "power-solutions",
+      "vybhavam-contractors",
+      "d-k-department-stores"
+    ]
+  },
+  {
+    "id": "book-titles",
+    "label": "Book Titles",
+    "navLabel": "Book Titles",
+    "sourceKey": "book-titles",
+    "itemSlugs": [
+      "subhodaya-school"
+    ]
+  },
+  {
+    "id": "hoardings",
+    "label": "Hoardings & Signage",
+    "navLabel": "Hoardings",
+    "sourceKey": "hoardings",
+    "itemSlugs": [
+      "a-square",
+      "vinayaka-shopping-mall"
+    ]
+  }
+]
