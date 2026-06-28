@@ -1,7 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/api/index.js" }
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "{resources/**,uploads/**,data/**,index.html,public/**}"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api" }
   ]
 }

@@ -213,10 +213,15 @@ const server = http.createServer(async (req, res) => {
   }
 
   if (pathname.startsWith('/uploads/') || pathname.startsWith('/resources/')) {
-    const localPath = path.join(ROOT, pathname);
-    if (fs.existsSync(localPath) && fs.statSync(localPath).isFile()) {
-      serveFile(res, localPath);
-      return;
+    const candidates = [
+      path.join(ROOT, 'public', pathname),
+      path.join(ROOT, pathname),
+    ];
+    for (const localPath of candidates) {
+      if (fs.existsSync(localPath) && fs.statSync(localPath).isFile()) {
+        serveFile(res, localPath);
+        return;
+      }
     }
   }
 
