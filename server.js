@@ -17,7 +17,13 @@ const { renderGridItems, renderListingPage, renderDetailPage, renderContactPage,
 
 const PORT = process.env.PORT || 3000;
 const ROOT = __dirname;
-const ENGAGEMENT_FILE = path.join(ROOT, 'data', 'engagement.json');
+
+function getEngagementFile() {
+  if (process.env.VERCEL) {
+    return path.join('/tmp', 'adfinity-engagement.json');
+  }
+  return path.join(ROOT, 'data', 'engagement.json');
+}
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=UTF-8',
@@ -41,20 +47,34 @@ const MIME_TYPES = {
 let engagement = loadEngagement();
 
 function loadEngagement() {
+  const engagementFile = getEngagementFile();
+
   try {
-    fs.mkdirSync(path.dirname(ENGAGEMENT_FILE), { recursive: true });
-    if (fs.existsSync(ENGAGEMENT_FILE)) {
-      return JSON.parse(fs.readFileSync(ENGAGEMENT_FILE, 'utf8'));
+    if (fs.existsSync(engagementFile)) {
+      return JSON.parse(fs.readFileSync(engagementFile, 'utf8'));
     }
   } catch {
     // ignore
   }
+
+  const seedFile = path.join(ROOT, 'data', 'engagement.json');
+  try {
+    if (fs.existsSync(seedFile)) {
+      return JSON.parse(fs.readFileSync(seedFile, 'utf8'));
+    }
+  } catch {
+    // ignore
+  }
+
   return {};
 }
 
 function saveEngagement() {
-  fs.mkdirSync(path.dirname(ENGAGEMENT_FILE), { recursive: true });
-  fs.writeFileSync(ENGAGEMENT_FILE, JSON.stringify(engagement, null, 2));
+  try {
+    fs.writeFileSync(getEngagementFile(), JSON.stringify(engagement, null, 2));
+  } catch {
+    // Vercel only allows writes to /tmp; keep in-memory stats if save fails.
+  }
 }
 
 function getStats(itemPath) {
