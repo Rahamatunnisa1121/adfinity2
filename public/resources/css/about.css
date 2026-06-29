@@ -1212,22 +1212,6 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.06) !important;
 }
 
-#wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-cat {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  background-image: none !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  border-radius: 999px !important;
-  color: #fff !important;
-}
-
-#wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-cat.active,
-#wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-cat:hover {
-  background-color: rgba(254, 65, 1, 0.85) !important;
-  border-color: transparent !important;
-  color: #fff !important;
-}
-
-/* Legacy selector kept for cached pages */
 #wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-category {
   display: inline-flex !important;
   align-items: center;
@@ -1242,6 +1226,13 @@
   padding: 8px 32px 8px 16px !important;
   margin: 4px 0 !important;
   text-decoration: none !important;
+}
+
+#wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-category:hover,
+#wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-category.show {
+  background-color: rgba(254, 65, 1, 0.85) !important;
+  border-color: transparent !important;
+  color: #fff !important;
 }
 
 #wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-category::after {

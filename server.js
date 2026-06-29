@@ -77,6 +77,56 @@ function saveEngagement() {
   }
 }
 
+const LIKED_COOKIE = 'adf_liked';
+const LIKED_COOKIE_MAX_AGE = 60 * 60 * 24 * 365;
+
+function parseCookieHeader(header) {
+  const cookies = {};
+  if (!header) return cookies;
+
+  for (const part of header.split(';')) {
+    const trimmed = part.trim();
+    if (!trimmed) continue;
+    const eq = trimmed.indexOf('=');
+    if (eq === -1) continue;
+    const key = trimmed.slice(0, eq);
+    const value = trimmed.slice(eq + 1);
+    cookies[key] = decodeURIComponent(value);
+  }
+
+  return cookies;
+}
+
+function getLikedPaths(req) {
+  const raw = parseCookieHeader(req.headers.cookie)[LIKED_COOKIE];
+  if (!raw) return new Set();
+
+  try {
+    const parsed = JSON.parse(raw);
+    return new Set(Array.isArray(parsed) ? parsed : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function appendSetCookie(res, cookie) {
+  const existing = res.getHeader('Set-Cookie');
+  if (!existing) {
+    res.setHeader('Set-Cookie', cookie);
+    return;
+  }
+
+  res.setHeader('Set-Cookie', Array.isArray(existing) ? [...existing, cookie] : [existing, cookie]);
+}
+
+function rememberLikedPath(res, likedPaths, itemPath) {
+  likedPaths.add(itemPath);
+  appendSetCookie(
+    res,
+    `${LIKED_COOKIE}=${encodeURIComponent(JSON.stringify([...likedPaths]))}; Path=/; Max-Age=${LIKED_COOKIE_MAX_AGE}; SameSite=Lax`,
+  );
+}
+
 function getStats(itemPath) {
   return engagement[itemPath] || { views: 0, likes: 0 };
 }
@@ -107,8 +157,12 @@ function sendHtml(res, statusCode, html) {
   res.end(html);
 }
 
-function sendJson(res, statusCode, payload) {
-  res.writeHead(statusCode, { 'Content-Type': 'application/json; charset=UTF-8' });
+function sendJson(res, statusCode, payload, extraHeaders = {}) {
+  res.writeHead(statusCode, {
+    'Content-Type': 'application/json; charset=UTF-8',
+    'Cache-Control': 'no-store',
+    ...extraHeaders,
+  });
   res.end(JSON.stringify(payload));
 }
 
@@ -258,8 +312,17 @@ const server = http.createServer(async (req, res) => {
 
   if (req.method === 'GET' && parsed.searchParams.get('appreciate') === 'true') {
     const itemPath = pathname;
-    const stats = incrementLike(itemPath);
-    sendJson(res, 200, { success: true, count: stats.likes });
+    const likedPaths = getLikedPaths(req);
+    const stats = getStats(itemPath);
+
+    if (likedPaths.has(itemPath)) {
+      sendJson(res, 200, { success: true, count: stats.likes, already: true });
+      return;
+    }
+
+    rememberLikedPath(res, likedPaths, itemPath);
+    const updated = incrementLike(itemPath);
+    sendJson(res, 200, { success: true, count: updated.likes });
     return;
   }
 

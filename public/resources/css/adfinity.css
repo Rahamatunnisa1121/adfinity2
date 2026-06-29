@@ -277,31 +277,60 @@ h6,
   padding: 4px 12px !important;
 }
 
-.adf-cat-nav {
+.adf-cat-choose {
   display: flex !important;
   flex-direction: row !important;
-  flex-wrap: nowrap;
   align-items: center;
-  gap: 4px;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  max-width: calc(100% - 180px);
+  gap: 8px;
 }
 
-.adf-cat-nav::-webkit-scrollbar {
-  display: none;
-}
-
-.adf-cat-nav .nav-link.nav-cat {
+#hd-bot .nav-link.nav-category {
+  display: inline-flex !important;
+  align-items: center;
   white-space: nowrap;
-  font-size: 13px !important;
-  padding: 7px 14px !important;
-  margin: 0 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 8px 36px 8px 16px !important;
+  margin: 4px 0 !important;
+  border-radius: 999px !important;
+  background-color: #1d1c22 !important;
+  background-image: url(../images/category-dropdown.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: right 12px center !important;
+  background-size: 12px auto !important;
+  color: #fff !important;
+  border: none !important;
 }
 
-.adf-cat-nav .nav-link.nav-cat.active {
-  background: #fe4101 !important;
+#hd-bot .nav-link.nav-category:hover,
+#hd-bot .nav-link.nav-category:focus,
+#hd-bot .nav-link.nav-category.show {
+  background-color: #fe4101 !important;
+  color: #fff !important;
+}
+
+#hd-bot .adf-choose-category-menu {
+  margin-top: 6px;
+  min-width: 260px;
+  max-height: 360px;
+  overflow-y: auto;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+
+#hd-bot .adf-choose-category-menu .dropdown-item {
+  padding: 10px 16px;
+  font-size: 14px;
+}
+
+#hd-bot .adf-choose-category-menu .dropdown-item.active {
+  background: #fe4101;
+  color: #fff;
+}
+
+#hd-bot .dropdown-uparrow {
+  display: none;
 }
 
 #hd-bot .nav-right {
@@ -349,9 +378,13 @@ h6,
   }
 
   .adf-nav-btn {
-    padding: 6px 12px !important;
-    font-size: 13px !important;
+    padding: 6px 10px !important;
+    font-size: 12px !important;
     margin: 0 !important;
+  }
+
+  .adf-nav-category-mobile .adf-nav-btn span {
+    font-size: 11px;
   }
 }
 
@@ -399,10 +432,6 @@ h6,
 
   #hd-top .navbar-nav li {
     float: none !important;
-  }
-
-  #hd-bot {
-    display: none !important;
   }
 
   #main-wrp.mt140 {
@@ -521,6 +550,15 @@ h6,
   #main-wrp.mt140 {
     margin-top: 66px !important;
   }
+}
+
+#nav-like.adf-liked {
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+#nav-like.adf-liked img.active {
+  opacity: 1;
 }
 
 /* Detail view — contained image on white card */
