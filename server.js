@@ -180,14 +180,12 @@ function serveFile(res, filePath) {
   });
 }
 
-function resolveListingContext(pathname, query) {
+function resolveListingContext(pathname) {
   const categories = getCategories();
   const category = isCategoryPath(pathname);
-  const searchQuery = pathname === '/search' ? query.get('q') : null;
   const categoryId = category ? category.id : null;
   const items = getItems({
     categoryId,
-    query: searchQuery,
     mixedHomepage: pathname === '/',
   });
 
@@ -195,7 +193,6 @@ function resolveListingContext(pathname, query) {
     categories,
     category,
     categoryId,
-    searchQuery,
     items,
     total: items.length,
   };
@@ -203,24 +200,21 @@ function resolveListingContext(pathname, query) {
 
 function handleAjaxListing(req, res, pathname, query) {
   const page = Number(query.get('page') || 0);
-  const context = resolveListingContext(pathname, query);
+  const context = resolveListingContext(pathname);
   const slice = paginateItems(context.items, page);
   const html = renderGridItems(slice, getStats);
 
   sendHtml(res, 200, html);
 }
 
-function handleListingPage(req, res, pathname, query) {
-  const context = resolveListingContext(pathname, query);
-  const sharePath = pathname === '/search' ? `${pathname}?q=${encodeURIComponent(context.searchQuery || '')}` : pathname;
+function handleListingPage(req, res, pathname) {
+  const context = resolveListingContext(pathname);
   const html = renderListingPage({
     categories: context.categories,
     activeCategory: context.categoryId,
     total: context.total,
     page: 0,
     activeHome: pathname === '/',
-    shareUrl: `${SITE.url}${sharePath === '/' ? '' : sharePath}`,
-    searchTags: context.searchQuery ? [context.searchQuery] : [],
   });
 
   sendHtml(res, 200, html);
@@ -344,7 +338,13 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
-  if (req.method === 'GET' && (pathname === '/' || pathname === '/search' || isCategoryPath(pathname))) {
+  if (req.method === 'GET' && pathname === '/search') {
+    res.writeHead(301, { Location: '/' });
+    res.end();
+    return;
+  }
+
+  if (req.method === 'GET' && (pathname === '/' || isCategoryPath(pathname))) {
     if (isAjax || hasPage) {
       handleAjaxListing(req, res, pathname, parsed.searchParams);
       return;
@@ -355,7 +355,7 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
-    handleListingPage(req, res, pathname, parsed.searchParams);
+    handleListingPage(req, res, pathname);
     return;
   }
 

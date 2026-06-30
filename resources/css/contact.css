@@ -2,7 +2,7 @@
 .adf-contact-page {
   --adf-red: #e02020;
   --adf-red-deep: #9b0a0a;
-  --adf-orange: #f26522;
+  --adf-orange: #c41a1a;
   --adf-ink: #121118;
   --adf-ink-mid: #1e1d26;
   --adf-muted: #7a7a88;
@@ -21,7 +21,7 @@
   inset: 0;
   background:
     radial-gradient(ellipse 70% 55% at 0% 0%, rgba(224, 32, 32, 0.09), transparent 55%),
-    radial-gradient(ellipse 55% 45% at 100% 10%, rgba(242, 101, 34, 0.08), transparent 50%),
+    radial-gradient(ellipse 55% 45% at 100% 10%, rgba(224, 32, 32, 0.08), transparent 50%),
     radial-gradient(ellipse 40% 30% at 50% 100%, rgba(18, 17, 24, 0.04), transparent 60%);
   pointer-events: none;
   z-index: 0;
@@ -57,7 +57,7 @@
 .adf-hero-glow-2 {
   width: 280px;
   height: 280px;
-  background: rgba(242, 101, 34, 0.22);
+  background: rgba(224, 32, 32, 0.22);
   bottom: -40px;
   right: -40px;
 }
@@ -68,7 +68,7 @@
   inset: 0;
   background:
     radial-gradient(circle at 15% 90%, rgba(224, 32, 32, 0.45), transparent 42%),
-    radial-gradient(circle at 85% 15%, rgba(242, 101, 34, 0.28), transparent 38%),
+    radial-gradient(circle at 85% 15%, rgba(224, 32, 32, 0.28), transparent 38%),
     radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.03), transparent 70%);
   pointer-events: none;
 }
@@ -136,7 +136,7 @@
 
 .adf-contact-hero .adf-contact-title span {
   display: inline-block;
-  background: linear-gradient(92deg, #ff6b6b 0%, #f26522 50%, #ffb347 100%) !important;
+  background: linear-gradient(92deg, #e02020 0%, #c41a1a 50%, #9b0a0a 100%) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   color: transparent !important;
@@ -191,7 +191,7 @@
 }
 
 .adf-hero-btn-wa {
-  background: linear-gradient(135deg, #25d366, #1aad52);
+  background: linear-gradient(135deg, var(--adf-red), var(--adf-red-deep));
   color: #fff !important;
   box-shadow: 0 8px 28px rgba(37, 211, 102, 0.4);
 }
@@ -259,7 +259,7 @@
   bottom: 0.15em;
   width: 4px;
   border-radius: 4px;
-  background: linear-gradient(180deg, var(--adf-red), var(--adf-orange));
+  background: linear-gradient(180deg, var(--adf-red), var(--adf-red-deep));
 }
 
 .adf-section-title-side {
@@ -315,7 +315,7 @@
   top: 0;
   bottom: 0;
   width: 3px;
-  background: linear-gradient(180deg, var(--adf-red), var(--adf-orange));
+  background: linear-gradient(180deg, var(--adf-red), var(--adf-red-deep));
   opacity: 0;
   transition: opacity 0.25s;
 }
@@ -354,7 +354,7 @@
   content: "";
   width: 20px;
   height: 20px;
-  background: linear-gradient(135deg, var(--adf-red), var(--adf-orange));
+  background: linear-gradient(135deg, var(--adf-red), var(--adf-red-deep));
   mask-size: contain;
   mask-repeat: no-repeat;
   mask-position: center;
@@ -428,7 +428,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--adf-red), var(--adf-orange), var(--adf-red));
+  background: linear-gradient(90deg, var(--adf-red), var(--adf-red-deep), var(--adf-red));
   background-size: 200% 100%;
   animation: adf-shimmer 4s linear infinite;
 }
@@ -551,7 +551,7 @@
 }
 
 .adf-btn-whatsapp {
-  background: linear-gradient(135deg, #1ebe57, #25d366) !important;
+  background: linear-gradient(135deg, var(--adf-red), var(--adf-red-deep)) !important;
   color: #fff !important;
   box-shadow: 0 8px 24px rgba(37, 211, 102, 0.35) !important;
 }

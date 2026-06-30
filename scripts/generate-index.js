@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { getCategories, getPortfolio } = require('../lib/portfolio');
-const { renderListingPage, SITE } = require('../lib/render');
+const { renderListingPage } = require('../lib/render');
 
 const ROOT = path.join(__dirname, '..');
 const categories = getCategories();
@@ -12,7 +12,6 @@ const html = renderListingPage({
   activeHome: true,
   total,
   page: 0,
-  shareUrl: SITE.url,
 });
 
 fs.writeFileSync(path.join(ROOT, 'index.html'), html);

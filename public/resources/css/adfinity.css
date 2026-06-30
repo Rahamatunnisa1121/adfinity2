@@ -2,6 +2,10 @@
 :root {
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-heading: "Playfair Display", Georgia, "Times New Roman", serif;
+  --adf-brand-red: #e02020;
+  --adf-brand-red-hover: #c41a1a;
+  --adf-brand-red-deep: #9b0a0a;
+  --adf-brand-red-soft: rgba(224, 32, 32, 0.2);
 }
 
 body,
@@ -37,7 +41,6 @@ a {
 
 #header .nav-link,
 #header .navbar-nav,
-#header .nav-search-input,
 #header .dropdown-item,
 #hd-bot .nav-link,
 #hd-bot .navbar-nav,
@@ -100,7 +103,7 @@ h6,
 
 /* Contact — same pill style as About */
 #hd-top .navbar-nav .nav-contact {
-  background: #fe4101;
+  background: #e02020;
   color: #fff !important;
   font-size: 16px;
   margin: 6px 0;
@@ -121,12 +124,12 @@ h6,
 #hd-top .navbar-nav .nav-contact:hover,
 #hd-top .navbar-nav .nav-contact:focus {
   color: #fff !important;
-  background: #f26522 !important;
+  background: #c41a1a !important;
 }
 
 /* About nav — same pill as Contact */
 #hd-top .navbar-nav .nav-about {
-  background: #fe4101;
+  background: #e02020;
   color: #fff !important;
   font-size: 16px;
   margin: 6px 0;
@@ -143,16 +146,16 @@ h6,
 #hd-top .navbar-nav .nav-about:hover,
 #hd-top .navbar-nav .nav-about:focus {
   color: #fff !important;
-  background: #f26522;
+  background: #c41a1a;
 }
 
 @media (min-width: 992px) {
   #hd-top .nav-link.nav-contact.active {
-    background-color: #f26522 !important;
+    background-color: #c41a1a !important;
   }
 
   #hd-top .nav-link.nav-about.active {
-    background-color: #f26522 !important;
+    background-color: #c41a1a !important;
     border-radius: 25px !important;
     color: #fff !important;
   }
@@ -255,18 +258,8 @@ h6,
 }
 
 .adf-category-dropdown .dropdown-item.active {
-  background: #fe4101;
+  background: #e02020;
   color: #fff;
-}
-
-.adf-search-dropdown {
-  padding: 12px;
-  min-width: 280px;
-}
-
-.adf-search-dropdown .form-group {
-  width: 100% !important;
-  margin: 0;
 }
 
 .adf-navbar-bot {
@@ -305,7 +298,7 @@ h6,
 #hd-bot .nav-link.nav-category:hover,
 #hd-bot .nav-link.nav-category:focus,
 #hd-bot .nav-link.nav-category.show {
-  background-color: #fe4101 !important;
+  background-color: #e02020 !important;
   color: #fff !important;
 }
 
@@ -325,7 +318,7 @@ h6,
 }
 
 #hd-bot .adf-choose-category-menu .dropdown-item.active {
-  background: #fe4101;
+  background: #e02020;
   color: #fff;
 }
 
@@ -338,16 +331,8 @@ h6,
 }
 
 @media (min-width: 992px) {
-  .adf-nav-search-item {
-    display: none !important;
-  }
-
   .adf-nav-category-mobile {
     display: none !important;
-  }
-
-  .adf-nav-search {
-    display: block !important;
   }
 
   #hd-bot {
@@ -356,10 +341,6 @@ h6,
 }
 
 @media (max-width: 991px) {
-  .adf-nav-search {
-    display: none !important;
-  }
-
   .adf-nav-category-mobile {
     display: list-item !important;
   }
@@ -481,10 +462,6 @@ h6,
   align-items: center;
 }
 
-#hd-top .nav-search {
-  align-self: center;
-}
-
 #main-wrp.mt140 {
   margin-top: 76px !important;
 }
@@ -513,10 +490,6 @@ h6,
   /* hd-top (~81px) + hd-bot (~52px) */
   #main-wrp.mt140 {
     margin-top: 136px !important;
-  }
-
-  #hd-top .nav-search {
-    display: block !important;
   }
 
   #hd-top .navbar-nav .nav-contact span,
@@ -775,7 +748,7 @@ h6,
 }
 
 .adf-ft-insta a:hover .adf-ft-icon {
-  background: linear-gradient(135deg, #f77737, #e1306c);
+  background: linear-gradient(135deg, #c41a1a, #9b0a0a);
 }
 
 .adf-ft-maps .adf-ft-icon {
@@ -784,7 +757,7 @@ h6,
 }
 
 .adf-ft-maps a:hover .adf-ft-icon {
-  background: #4285f4;
+  background: var(--adf-brand-red);
 }
 
 .adf-ft-wh .adf-ft-icon {
@@ -793,7 +766,7 @@ h6,
 }
 
 .adf-ft-wh a:hover .adf-ft-icon {
-  background: #25d366;
+  background: var(--adf-brand-red);
 }
 
 .adf-ft-gbiz .adf-ft-icon {
@@ -802,7 +775,7 @@ h6,
 }
 
 .adf-ft-gbiz a:hover .adf-ft-icon {
-  background: #ea4335;
+  background: var(--adf-brand-red-deep);
 }
 
 /* Floating quick contact — bottom-right */
@@ -900,7 +873,7 @@ h6,
 }
 
 .adf-quick-insta {
-  background: linear-gradient(135deg, #f77737, #e1306c, #c13584);
+  background: linear-gradient(135deg, #e02020, #9b0a0a);
 }
 
 .adf-quick-insta .adf-quick-icon {
@@ -909,7 +882,7 @@ h6,
 }
 
 .adf-quick-maps {
-  background: linear-gradient(135deg, #4285f4, #3367d6);
+  background: linear-gradient(135deg, #121118, #2a2933);
 }
 
 .adf-quick-maps .adf-quick-icon {
@@ -918,7 +891,7 @@ h6,
 }
 
 .adf-quick-call {
-  background: linear-gradient(135deg, #f26522, #e02020);
+  background: linear-gradient(135deg, #e02020, #9b0a0a);
 }
 
 .adf-quick-call .adf-quick-icon {
@@ -955,4 +928,39 @@ h6,
   .adf-quick-btn::after {
     display: none;
   }
+}
+
+/* Override legacy Regin orange (#fe4101) — red / black / white theme */
+a:active,
+a:focus,
+a:hover {
+  color: var(--adf-brand-red) !important;
+}
+
+body .btn-primary,
+body .btn-primary:hover {
+  background-color: var(--adf-brand-red) !important;
+  border-color: var(--adf-brand-red) !important;
+}
+
+#subscribe-submit .input-group-append .input-group-text,
+#subscribe-submit .input-group-append .input-group-text:hover {
+  background: var(--adf-brand-red) !important;
+  border-color: var(--adf-brand-red) !important;
+}
+
+#hd-bot .navbar-nav li a:hover,
+#hd-top .navbar-nav .nav-item-dp .dropdown-menu a:hover,
+#hd-bot .navbar-nav li .dropdown-menu a:hover {
+  background: var(--adf-brand-red) !important;
+  color: #fff !important;
+}
+
+#hd-top .navbar-nav .show .nav-contact,
+#hd-top .navbar-nav .show .nav-follow {
+  color: var(--adf-brand-red) !important;
+}
+
+#footer p a:hover {
+  color: var(--adf-brand-red) !important;
 }

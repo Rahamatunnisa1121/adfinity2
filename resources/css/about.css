@@ -1,7 +1,7 @@
 /* About page — matches contact page theme */
 .adf-about-page {
   --adf-red: #e02020;
-  --adf-orange: #f26522;
+  --adf-orange: #c41a1a;
   --adf-ink: #121118;
   --adf-muted: #7a7a88;
   background: #fff !important;
@@ -72,7 +72,7 @@
 .adf-glow-2 {
   width: 300px;
   height: 300px;
-  background: rgba(242, 101, 34, 0.2);
+  background: rgba(224, 32, 32, 0.2);
   bottom: -60px;
   right: -40px;
 }
@@ -103,7 +103,7 @@
 }
 
 .adf-about-title span {
-  background: linear-gradient(92deg, #ff6b6b, #f26522, #ffb347) !important;
+  background: linear-gradient(92deg, #e02020, #c41a1a, #9b0a0a) !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
   color: transparent !important;
@@ -182,7 +182,7 @@
 }
 
 .adf-about-btn-primary {
-  background: linear-gradient(135deg, var(--adf-red), var(--adf-orange));
+  background: linear-gradient(135deg, var(--adf-red), var(--adf-red-deep, #9b0a0a));
   color: #fff !important;
   box-shadow: 0 8px 24px rgba(224, 32, 32, 0.35);
 }
@@ -1039,7 +1039,7 @@
 .adf-cta-glow-2 {
   width: 220px;
   height: 220px;
-  background: rgba(242, 101, 34, 0.2);
+  background: rgba(224, 32, 32, 0.2);
   bottom: -60px;
   right: -20px;
 }
@@ -1065,7 +1065,7 @@
 }
 
 .adf-about-cta h2 span {
-  background: linear-gradient(135deg, #ff8a65, #e02020);
+  background: linear-gradient(135deg, #e02020, #9b0a0a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent !important;
@@ -1122,7 +1122,7 @@
 }
 
 .adf-cta-trust-icon {
-  color: #ff8a65;
+  color: #e02020;
   font-size: 11px;
 }
 
@@ -1230,7 +1230,7 @@
 
 #wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-category:hover,
 #wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-category.show {
-  background-color: rgba(254, 65, 1, 0.85) !important;
+  background-color: rgba(224, 32, 32, 0.85) !important;
   border-color: transparent !important;
   color: #fff !important;
 }
@@ -1248,7 +1248,7 @@
 }
 
 #wrapper:has(.adf-about-page) #hd-bot .nav-link.nav-category:hover {
-  background-color: rgba(254, 65, 1, 0.85) !important;
+  background-color: rgba(224, 32, 32, 0.85) !important;
   border-color: transparent !important;
   color: #fff !important;
 }
